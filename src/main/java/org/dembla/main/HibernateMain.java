@@ -31,7 +31,9 @@ public class HibernateMain {
         System.out.println("Employee ID " + employee.getId());
 
         // terminate the session , other wise the program would not end
-        HibernateUtil.getSessionFactory().close();
+//        HibernateUtil.getSessionFactory().close();
+//        HibernateUtil.getSessionAnnotationFactory().close();
+          HibernateUtil.getSessionJavaConfigFactory().close();
 
     }
 }
