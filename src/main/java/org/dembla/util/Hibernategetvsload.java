@@ -15,19 +15,27 @@ public class Hibernategetvsload {
 
         Transaction tx = session.beginTransaction() ;
 
-        // Get Example -- Early Fire Query
-        Employee employee = session.get(Employee.class, new Integer(2)) ;
+        try {
+            // Get Example -- Early Fire Query
+            Employee employee = session.get(Employee.class, new Integer(200));
 
-        System.out.println("Employee get called");
-        System.out.println("Employee ID= "+employee.getId());
-        System.out.println("Employee Get Details:: "+employee+"\n");
+            System.out.println("Employee get called");
+            System.out.println("Employee ID= " + employee.getId());
+            System.out.println("Employee Get Details:: " + employee + "\n");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
         // Load Example --- Lazyily Fire the Query
-        Employee employee1 = session.load(Employee.class,new Integer(1)) ;
+        Employee employee1 = session.load(Employee.class, new Integer(100));
 
-        System.out.println("Employee load called");
-        System.out.println("Employee ID= "+employee1.getId());
-        System.out.println("Employee load Details:: "+employee1+"\n");
+        try {
+            System.out.println("Employee load called");
+            System.out.println("Employee ID= " + employee1.getId());
+            System.out.println("Employee load Details:: " + employee1 + "\n");
+        }catch (Exception exception){
+            exception.printStackTrace();
+        }
 
         /*
          From the output it’s clear that get() returns the object by fetching it from database or from hibernate cache
