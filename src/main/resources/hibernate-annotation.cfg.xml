@@ -17,9 +17,12 @@
 
         <!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
         <property name="hibernate.current_session_context_class">thread</property>
+        <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <!-- Mapping with model class containing annotations -->
         <mapping class="org.dembla.model.Employee1"/>
+        <mapping class="org.dembla.sessionsave.Emp"/>
 
     </session-factory>
 </hibernate-configuration>

@@ -55,7 +55,9 @@ public class HibernateUtil {
 
             Configuration configuration = new Configuration() ;
             configuration.configure("hibernate-annotation.cfg.xml") ;
-            configuration.addAnnotatedClass(org.dembla.model.Employee1.class) ;
+//            configuration.addAnnotatedClass(org.dembla.model.Employee.class) ;
+            configuration.addAnnotatedClass(org.dembla.sessionsave.Emp.class) ;
+            configuration.addAnnotatedClass(org.dembla.sessionsave.Address.class) ;
             System.out.println("Hibernate Annotation Coinfiguration loaded.");
 
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build() ;
