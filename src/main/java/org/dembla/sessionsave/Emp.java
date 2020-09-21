@@ -3,6 +3,7 @@ package org.dembla.sessionsave;
 import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
 @Table(name = "EMP")
@@ -67,5 +68,21 @@ public class Emp {
                 ", salary=" + salary +
                 ", address=" + address +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Emp emp = (Emp) o;
+        return id == emp.id &&
+                Double.compare(emp.salary, salary) == 0 &&
+                Objects.equals(name, emp.name) &&
+                Objects.equals(address, emp.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, salary, address);
     }
 }
