@@ -7,6 +7,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import java.util.Random;
+
 public class TestSessionSave {
 
     public static void main(String[] args) {
@@ -61,15 +63,14 @@ public class TestSessionSave {
         session6.close();
         sessionFactory.close();
 
-
     }
 
-    private static Emp getTestEmployee() {
+    public static Emp getTestEmployee() {
 
         Emp emp = new Emp() ;
         Address address = new Address() ;
         emp.setName("Test emp");
-        emp.setSalary(1000);
+        emp.setSalary(new Random().nextInt());
 
         address.setCity("Test City");
         address.setZipCode("121112");
