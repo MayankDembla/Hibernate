@@ -46,7 +46,15 @@ public class HQLExamples {
             System.out.println("Paginated Employees : : " + emp1.getId() + " Name : " + emp1.getName() +  " , " + emp1.getAddress().getCity());
         }
 
+        //HQL Delete Employee, we need to take care of foreign key constraints too
 
+        query  = session.createQuery("update Emp set name = :name where id = :id ") ;
+        query.setParameter("id", (long)1) ;
+        query.setParameter("name", "Test emp New" )  ;
+        int result = query.executeUpdate();
+        System.out.println("Employee Update Status="+result);
+
+        tx.commit();
     }
 
 }
