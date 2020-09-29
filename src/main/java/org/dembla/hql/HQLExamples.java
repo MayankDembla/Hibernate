@@ -59,7 +59,10 @@ public class HQLExamples {
         result = query.executeUpdate() ;
         System.out.println("Employee Delete Status : " + result)  ;
 
-
+      // HQL Aggregrate Function Examples
+        query = session.createQuery("select sum(salary) from Emp") ;
+        double sumSalary  = (Double)  query.uniqueResult()  ;
+        System.out.println(" Sum of All Salaries  : " + sumSalary );
 
 
         tx.commit();
