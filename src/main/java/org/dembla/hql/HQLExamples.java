@@ -7,6 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class HQLExamples {
@@ -32,6 +33,19 @@ public class HQLExamples {
         Emp emp = (Emp) query.uniqueResult();
 
         System.out.println("Employee Name : " + emp.getName() + " City : " + emp.getAddress().getCity());
+
+        // Pagination Example
+        System.out.println("====================================>>>>>");
+        query = session.createQuery("from Emp");
+        query.setFirstResult(2); // starts with 2
+        query.setFetchSize(5);
+
+        List<Emp> emplist = query.list();
+
+        for (Emp emp1 : emplist) {
+            System.out.println("Paginated Employees : : " + emp1.getId() + " Name : " + emp1.getName() +  " , " + emp1.getAddress().getCity());
+        }
+
 
     }
 
