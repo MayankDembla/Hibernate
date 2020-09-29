@@ -44,7 +44,10 @@ public class Address {
     }
 
     public String getCity() {
+        if(city != null)
         return city;
+
+        return "NotDefined" ;
     }
 
     public void setCity(String city) {
