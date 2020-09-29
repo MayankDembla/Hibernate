@@ -1,5 +1,6 @@
 package org.dembla.hql;
 
+import org.dembla.model.Employee;
 import org.dembla.sessionsave.Emp;
 import org.dembla.util.HibernateUtil;
 import org.hibernate.Session;
@@ -79,6 +80,13 @@ public class HQLExamples {
         List<Object[]> groupList = query.list();
         for(Object[] arr : groupList){
             System.out.println(Arrays.toString(arr));
+        }
+
+        //HQL order by example
+        query = session.createQuery("from Emp e order by e.id desc");
+        emplist = query.list();
+        for(Emp emp3 : emplist){
+            System.out.println("ID Desc Order Employee::"+emp3.getId()+","+emp3.getAddress().getCity());
         }
 
         tx.commit();
