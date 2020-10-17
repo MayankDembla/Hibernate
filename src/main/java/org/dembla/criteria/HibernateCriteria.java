@@ -34,6 +34,41 @@ public class HibernateCriteria {
 
         results.forEach(i-> System.out.println(i));
 
+        // Get all Employees Salary greater than 1000
+        System.out.println("------------");
+        cr.select(root).where(builder.gt(root.get("salary"),1000)) ;
+        query = session.createQuery(cr) ;
+        results = query.getResultList() ;
+
+        results.forEach(i-> System.out.println(i));
+
+        // Get all Employees Salary lesser than 1000
+        System.out.println("------------");
+        cr.select(root).where(builder.lt(root.get("salary"),1000)) ;
+        query = session.createQuery(cr) ;
+        results = query.getResultList() ;
+
+        results.forEach(i-> System.out.println(i));
+
+        // Employee having the Name contains test
+        System.out.println("------------");
+        cr.select(root).where(builder.like(root.get("name"),"%Test%"))
+                        .where(builder.like(root.get("name"),"%test%")) ;
+
+        query = session.createQuery(cr) ;
+        results = query.getResultList() ;
+
+        results.forEach(i-> System.out.println(i));
+
+        // Employee Id in between 5 and 12
+        System.out.println("------------");
+        cr.select(root).where(builder.between(root.get("id"),5,12)) ;
+
+        query = session.createQuery(cr) ;
+        results = query.getResultList() ;
+
+        results.forEach(i-> System.out.println(i));
+
     }
 
 }
