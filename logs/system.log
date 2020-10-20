@@ -1,0 +1,142 @@
+2020-10-20 16:27:40,377 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:27:43,609 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:27:43,761 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:27:43,769 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:27:43,770 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:27:43,775 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:27:43,778 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-10-20 16:27:44,009 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-10-20 16:28:18,019 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:28:20,793 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:28:20,963 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:28:20,971 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:28:20,971 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:28:20,971 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:28:20,975 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-10-20 16:28:21,205 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-10-20 16:28:56,216 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:28:59,075 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:28:59,215 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:28:59,224 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:28:59,224 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:28:59,224 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:28:59,228 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 1 (min=1)
+2020-10-20 16:28:59,470 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2020-10-20 16:29:25,829 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:29:28,007 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:29:28,168 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:29:28,177 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:29:28,178 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:29:28,179 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:29:28,182 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-20 16:29:28,421 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-20 16:29:29,256 +0530 [main] INFO  (DdlTransactionIsolatorNonJtaImpl.java:47) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@352e787a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-10-20 16:29:29,698 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::2,Test City
+2020-10-20 16:29:29,698 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::3,null
+2020-10-20 16:29:29,699 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::5,Test City
+2020-10-20 16:29:29,699 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::6,null
+2020-10-20 16:29:29,699 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::9,Test City
+2020-10-20 16:29:29,699 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::11,New City
+2020-10-20 16:29:29,699 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::13,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::15,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::16,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::17,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::18,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::19,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::22,Bangalore
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::23,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::24,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::25,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::26,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::27,Test City
+2020-10-20 16:29:29,700 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::28,Test City
+2020-10-20 16:29:29,701 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::29,null
+2020-10-20 16:29:29,701 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::30,Test City
+2020-10-20 16:29:29,701 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::31,null
+2020-10-20 16:29:29,701 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::32,Test City
+2020-10-20 16:29:29,701 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::33,null
+2020-10-20 16:29:29,701 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::34,Test City
+2020-10-20 16:29:29,718 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:418) - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:29:29,720 +0530 [main] INFO  (HibernateLog4jExample.java:41) - DONE
+2020-10-20 16:29:58,026 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:30:00,200 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:30:00,366 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:30:00,374 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:30:00,375 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:30:00,375 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:30:00,379 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-20 16:30:00,624 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-20 16:30:01,462 +0530 [main] INFO  (DdlTransactionIsolatorNonJtaImpl.java:47) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@232cce0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::2,Test City
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::3,null
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::5,Test City
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::6,null
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::9,Test City
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::11,New City
+2020-10-20 16:30:01,919 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::13,Test City
+2020-10-20 16:30:01,920 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::15,Test City
+2020-10-20 16:30:01,920 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::16,Test City
+2020-10-20 16:30:01,920 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::17,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::18,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::19,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::22,Bangalore
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::23,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::24,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::25,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::26,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::27,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::28,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::29,null
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::30,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::31,null
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::32,Test City
+2020-10-20 16:30:01,921 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::33,null
+2020-10-20 16:30:01,922 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::34,Test City
+2020-10-20 16:30:01,940 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:418) - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:30:01,942 +0530 [main] INFO  (HibernateLog4jExample.java:41) - DONE
+2020-10-20 16:32:18,648 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:32:21,410 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:32:21,592 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:32:21,603 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:32:21,603 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:32:21,604 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:32:21,608 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-20 16:32:21,873 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-20 16:32:22,743 +0530 [main] INFO  (DdlTransactionIsolatorNonJtaImpl.java:47) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@232cce0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::2,Test City
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::3,null
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::5,Test City
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::6,null
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::9,Test City
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::11,New City
+2020-10-20 16:32:23,198 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::13,Test City
+2020-10-20 16:32:23,199 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::15,Test City
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::16,Test City
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::17,Test City
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::18,Test City
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::19,Test City
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::22,Bangalore
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::23,Test City
+2020-10-20 16:32:23,200 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::24,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::25,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::26,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::27,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::28,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::29,null
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::30,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::31,null
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::32,Test City
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::33,null
+2020-10-20 16:32:23,201 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::34,Test City
+2020-10-20 16:32:23,222 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:418) - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:32:23,224 +0530 [main] INFO  (HibernateLog4jExample.java:41) - DONE
+2020-10-20 16:39:55,053 +0530 [main] INFO  (Version.java:44) - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-20 16:39:57,797 +0530 [main] INFO  (JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-20 16:39:58,026 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:72) - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-10-20 16:39:58,035 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:115) - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/TestDB]
+2020-10-20 16:39:58,035 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:124) - HHH10001001: Connection properties: {user=root, password=****}
+2020-10-20 16:39:58,036 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:129) - HHH10001003: Autocommit mode: false
+2020-10-20 16:39:58,039 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:249) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-10-20 16:39:58,352 +0530 [main] INFO  (Dialect.java:170) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-20 16:39:59,155 +0530 [main] INFO  (DdlTransactionIsolatorNonJtaImpl.java:47) - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@232cce0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-10-20 16:39:59,623 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:418) - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/TestDB]

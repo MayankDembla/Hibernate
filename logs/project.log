@@ -1,0 +1,26 @@
+2020-10-20 16:39:59,587 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::2,Test City
+2020-10-20 16:39:59,588 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::3,null
+2020-10-20 16:39:59,588 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::5,Test City
+2020-10-20 16:39:59,588 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::6,null
+2020-10-20 16:39:59,588 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::9,Test City
+2020-10-20 16:39:59,589 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::11,New City
+2020-10-20 16:39:59,589 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::13,Test City
+2020-10-20 16:39:59,595 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::15,Test City
+2020-10-20 16:39:59,595 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::16,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::17,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::18,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::19,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::22,Bangalore
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::23,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::24,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::25,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::26,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::27,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::28,Test City
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::29,null
+2020-10-20 16:39:59,596 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::30,Test City
+2020-10-20 16:39:59,597 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::31,null
+2020-10-20 16:39:59,597 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::32,Test City
+2020-10-20 16:39:59,597 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::33,null
+2020-10-20 16:39:59,597 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::34,Test City
+2020-10-20 16:39:59,625 +0530 [main] INFO  (HibernateLog4jExample.java:41) - DONE
