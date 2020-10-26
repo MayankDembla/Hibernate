@@ -64,6 +64,7 @@ public class HibernateUtil {
             configuration.addAnnotatedClass(org.dembla.mapping.onetomany.Items.class) ;
             configuration.addAnnotatedClass(org.dembla.mapping.manytomany.CartNew.class) ;
             configuration.addAnnotatedClass(org.dembla.mapping.manytomany.Item1.class) ;
+            configuration.addAnnotatedClass(org.dembla.cache.Animal.class) ;
 
             System.out.println("Hibernate Annotation Coinfiguration loaded.");
 
