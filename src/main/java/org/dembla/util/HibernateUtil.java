@@ -58,6 +58,8 @@ public class HibernateUtil {
 //            configuration.addAnnotatedClass(org.dembla.model.Employee.class) ;
             configuration.addAnnotatedClass(org.dembla.sessionsave.Emp.class) ;
             configuration.addAnnotatedClass(org.dembla.sessionsave.Address.class) ;
+            configuration.addAnnotatedClass(org.dembla.mapping.onetoone.Customer.class) ;
+            configuration.addAnnotatedClass(org.dembla.mapping.onetoone.Txn.class) ;
             System.out.println("Hibernate Annotation Coinfiguration loaded.");
 
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build() ;

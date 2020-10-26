@@ -23,6 +23,8 @@
         <!-- Mapping with model class containing annotations -->
         <mapping class="org.dembla.model.Employee1"/>
         <mapping class="org.dembla.sessionsave.Emp"/>
+        <mapping class="org.dembla.mapping.onetoone.Customer"/>
+        <mapping class="org.dembla.mapping.onetoone.Txn"/>
 
     </session-factory>
 </hibernate-configuration>
